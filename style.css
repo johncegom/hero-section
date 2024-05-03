@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  font-family: "Open Sans", sans-serif;
+  color: #efefef;
+  text-shadow: 0 0 2px #341810;
+  background-image: url("img/bg.webp");
+  background-size: cover;
+  min-height: 100vh;
+  padding: 3em 0 3em 5em;
+}
+
+.container {
+  width: 30%;
+}
+
+.hero__title {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hero__title span {
+  border-top: 3px solid #f02d3a;
+}
+
+.hero__description {
+  margin: 1em 0;
+  width: 75%;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* 256EFF */
+.hero__description span {
+  border-bottom: 5px solid #256eff;
+}
+
+.hero__cta-btn {
+  padding: 0.75em 1.25em;
+  color: #efefef;
+  background-color: #583f31;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+
+.hero__cta-btn:hover {
+  cursor: pointer;
+}
